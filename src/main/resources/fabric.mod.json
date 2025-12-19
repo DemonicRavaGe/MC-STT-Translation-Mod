@@ -5,7 +5,7 @@
 	"name": "MC STT Translation Mod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"DemonicRavaGe"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -20,6 +20,9 @@
 		],
 		"client": [
 			"net.demoravage.mcsttmod.MCSTTTranslationModClient"
+		],
+		"voicechat": [
+			"net.demoravage.mcsttmod.VoiceChatHandler"
 		]
 	},
 	"mixins": [
@@ -33,6 +36,7 @@
 		"fabricloader": ">=0.18.3",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"voicechat_api": ">=2.6.0"
 	}
 }
